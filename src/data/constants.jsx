@@ -133,10 +133,10 @@ export const experiences = [
       "CSS",
       "JavaScript",
       "TypeScript",
-      " Next Js",
       "MongoDB",
     ],
-    doc: "",
+    doc: "https://drive.google.com/file/d/1UCobH9401Pv4RY4G9GQLUHham4wUDNGX/view?usp=sharing",
+    pdfimg:"https://i0.wp.com/blog.apitier.com/wp-content/uploads/2023/02/MERN_Stack.jpg?fit=560%2C315&ssl=1",
   },
   {
     id: 1,
@@ -153,6 +153,8 @@ export const experiences = [
       "OpenSea",
       "MetaMask",
     ],
+    doc:"https://drive.google.com/file/d/1eIsjXHhn740Q5FZ6bfwtCMbEhOyRT458/view?usp=sharing",
+    pdfimg:"https://bairesdev.mo.cloudinary.net/blog/2022/03/web-3.0-1.jpg?tx=w_3840,q_auto"
   },
   {
     id: 2,

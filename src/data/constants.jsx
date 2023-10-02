@@ -264,19 +264,19 @@ export const projects = [
     github: "https://github.com/SamAditya09/Dynamic-Web-Animation.git",
     webapp: "",
   },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
+  {
+    id: 7,
+    title: "Internship Project",
+    date: "Aug 2023 - Sep 2023",
+    description:
+      "The Cartlane Clone Frontend is an open-source project that replicates the frontend interface of an e-commerce platform like Cartlane. It's built using popular web development technologies, including React, JavaScript, and Bootstrap, to provide an interactive and responsive shopping experience for users.",
+    image:
+      "https://camo.githubusercontent.com/979706518350e4702d42afebb37eb4d3f2adceec5a862157cb4b1300f9cfaac3/68747470733a2f2f7777772e6c696e6b706963747572652e636f6d2f712f53637265656e73686f742d39355f382e706e67",
+    tags: ["JavaScrpt", "React", "Database", "BootStrap"],
+    category: "React",
+    github: "https://github.com/SamAditya09/Cartlane-Clone-Frontend",
+    webapp: "https://samaditya09.github.io/Cartlane-Clone-Frontend/",
+  },
 ];
 
 export const TimeLineData = [

@@ -1,12 +1,11 @@
-import Project1img from "../images/Project1Img.png"
-
 export const Bio = {
   name: "Aditya Kumar Samantaray",
   roles: ["Full Stack Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/SamAditya09",
-  resume: "https://drive.google.com/file/d/1Qo9cfqaBGQljmqMgqlXFljqWnwjO7Jdj/view?usp=sharing",
+  resume:
+    "https://drive.google.com/file/d/1Qo9cfqaBGQljmqMgqlXFljqWnwjO7Jdj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aditya-samantaray-207169257/",
   twitter: "https://twitter.com/AdityaS75206848",
   insta: "https://www.instagram.com/sam.aditya19/",
@@ -136,7 +135,8 @@ export const experiences = [
       "MongoDB",
     ],
     doc: "https://drive.google.com/file/d/1UCobH9401Pv4RY4G9GQLUHham4wUDNGX/view?usp=sharing",
-    pdfimg:"https://i0.wp.com/blog.apitier.com/wp-content/uploads/2023/02/MERN_Stack.jpg?fit=560%2C315&ssl=1",
+    pdfimg:
+      "https://i0.wp.com/blog.apitier.com/wp-content/uploads/2023/02/MERN_Stack.jpg?fit=560%2C315&ssl=1",
   },
   {
     id: 1,
@@ -153,8 +153,9 @@ export const experiences = [
       "OpenSea",
       "MetaMask",
     ],
-    doc:"https://drive.google.com/file/d/1eIsjXHhn740Q5FZ6bfwtCMbEhOyRT458/view?usp=sharing",
-    pdfimg:"https://bairesdev.mo.cloudinary.net/blog/2022/03/web-3.0-1.jpg?tx=w_3840,q_auto"
+    doc: "https://drive.google.com/file/d/1eIsjXHhn740Q5FZ6bfwtCMbEhOyRT458/view?usp=sharing",
+    pdfimg:
+      "https://bairesdev.mo.cloudinary.net/blog/2022/03/web-3.0-1.jpg?tx=w_3840,q_auto",
   },
   {
     id: 2,
@@ -203,15 +204,8 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "This project is a college landing page that showcases the college's academic programs, student life, and campus facilities.Here you search for different types courses available with experienced Faculties.The page is built using HTML, CSS, and JavaScript, and it is responsive to different screen sizes.",
-    image:
-      "https://about.gitlab.com/nuxt-images/customers/dcu.jpg",
-    tags: [
-      "Html",
-      "CSS",
-      "JavaScript",
-      "Link",
-      "Location",
-    ],
+    image: "https://about.gitlab.com/nuxt-images/customers/dcu.jpg",
+    tags: ["Html", "CSS", "JavaScript", "Link", "Location"],
     category: "web app",
     github: "https://github.com/SamAditya09/College-Landing-Page.git",
     webapp: "",
@@ -249,8 +243,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "In this project, we leverage the capabilities of React, a popular JavaScript library for building user interfaces, and GSAP, an industry-leading animation library, to craft visually captivating and engaging web experiences. The project aims to demonstrate how to seamlessly integrate these technologies to elevate the interactivity and visual appeal of your websites and web applications.",
-    image:
-      "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2020/11/beapp-product-animation.gif?x15297",
+    image: "https://i.ytimg.com/vi/qCfjQEDtWss/maxresdefault.jpg",
     tags: [
       "JavaScript",
       "GSAP",
@@ -270,12 +263,23 @@ export const projects = [
     date: "Aug 2023 - Sep 2023",
     description:
       "The Cartlane Clone Frontend is an open-source project that replicates the frontend interface of an e-commerce platform like Cartlane. It's built using popular web development technologies, including React, JavaScript, and Bootstrap, to provide an interactive and responsive shopping experience for users.",
-    image:
-      "https://camo.githubusercontent.com/979706518350e4702d42afebb37eb4d3f2adceec5a862157cb4b1300f9cfaac3/68747470733a2f2f7777772e6c696e6b706963747572652e636f6d2f712f53637265656e73686f742d39355f382e706e67",
+    image: "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000/m/3cde/d4e6/287f/54b4/197c/77b9/7e9d/92de/1776/9298/9298.jpeg",
     tags: ["JavaScrpt", "React", "Database", "BootStrap"],
     category: "React",
     github: "https://github.com/SamAditya09/Cartlane-Clone-Frontend",
     webapp: "https://samaditya09.github.io/Cartlane-Clone-Frontend/",
+  },
+  {
+    id: 8,
+    title: "Frontened Project",
+    date: "Dec 2023",
+    description:
+      "A fully responsive frontend website refers to a website that adapts seamlessly to various devices and screen sizes, ensuring an optimal user experience regardless of whether the user is on a desktop, tablet, or smartphone.      Creating a responsive website involves using techniques such as flexible grid layouts, media queries, and flexible images to ensure that the content and design elements adjust and reorganize themselves based on the screen size.",
+    image: "https://html.com/wp-content/uploads/html-tutorial-beginners-header.jpg",
+    tags: ["HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/SamAditya09/SIMPLOTEL-Frontened.git",
+    webapp: "https://samaditya09.github.io/SIMPLOTEL-Frontened/",
   },
 ];
 

@@ -90,6 +90,6 @@ export const CardContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+    gap: 10px;
     flex-wrap: wrap;
 `;

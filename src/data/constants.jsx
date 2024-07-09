@@ -208,18 +208,6 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "College Landing Page",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "This project is a college landing page that showcases the college's academic programs, student life, and campus facilities.Here you search for different types courses available with experienced Faculties.The page is built using HTML, CSS, and JavaScript, and it is responsive to different screen sizes.",
-    image: "https://about.gitlab.com/nuxt-images/customers/dcu.jpg",
-    tags: ["Html", "CSS", "JavaScript", "Link", "Location"],
-    category: "web app",
-    github: "https://github.com/SamAditya09/College-Landing-Page.git",
-    webapp: "",
-  },
-  {
     id: 0,
     title: "Lamp Light Control System",
     date: "Apr 2023",
@@ -248,6 +236,31 @@ export const projects = [
   },
   {
     id: 1,
+    title: "College Landing Page",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "This project is a college landing page that showcases the college's academic programs, student life, and campus facilities.Here you search for different types courses available with experienced Faculties.The page is built using HTML, CSS, and JavaScript, and it is responsive to different screen sizes.",
+    image: "https://about.gitlab.com/nuxt-images/customers/dcu.jpg",
+    tags: ["Html", "CSS", "JavaScript", "Link", "Location"],
+    category: "web app",
+    github: "https://github.com/SamAditya09/College-Landing-Page.git",
+    webapp: "",
+  },
+  {
+    id: 2,
+    title: "Frontened Project",
+    date: "Dec 2023",
+    description:
+      "A fully responsive frontend website refers to a website that adapts seamlessly to various devices and screen sizes, ensuring an optimal user experience regardless of whether the user is on a desktop, tablet, or smartphone.      Creating a responsive website involves using techniques such as flexible grid layouts, media queries, and flexible images to ensure that the content and design elements adjust and reorganize themselves based on the screen size.",
+    image:
+      "https://i0.wp.com/www.medianama.com/wp-content/uploads/2020/10/Simplotel.jpg.jpg?fit=1206%2C607&ssl=1",
+    tags: ["HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/SamAditya09/SIMPLOTEL-Frontened.git",
+    webapp: "https://samaditya09.github.io/SIMPLOTEL-Frontened/",
+  },
+  {
+    id: 3,
     title: "Motion Animation",
     date: "Aug 2023",
     description:
@@ -267,41 +280,51 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 6,
-    title: "Smart Subject-Teacher Assign System",
-    date: "Mar 2024 - May 2024",
-    description:
-      "The primary objective of this project is to develop an efficient and fair system for distributing workload among teachers in educational institutions. By leveraging smart algorithms and new learning techniques.",
-    image: "https://smartslateapp.com/ssapp/img/landscape/dashboard.png",
-    tags: ["React", "MongoDB", "BootStrap","Postman","Node.js"],
-    category: "React",
-    github: "https://github.com/merupeshpradhan/Teacher-subject-Assign-",
-    // webapp: "https://samaditya09.github.io/Cartlane-Clone-Frontend/",
-  },
-  {
-    id: 7,
+    id: 4,
     title: "Internship Project",
     date: "Aug 2023 - Sep 2023",
     description:
       "The Cartlane Clone Frontend is an open-source project that replicates the frontend interface of an e-commerce platform like Cartlane. It's built using popular web development technologies, including React, JavaScript, and Bootstrap, to provide an interactive and responsive shopping experience for users.",
-    image: "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000/m/3cde/d4e6/287f/54b4/197c/77b9/7e9d/92de/1776/9298/9298.jpeg",
+    image:
+      "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000/m/3cde/d4e6/287f/54b4/197c/77b9/7e9d/92de/1776/9298/9298.jpeg",
     tags: ["JavaScrpt", "React", "Database", "BootStrap"],
     category: "React",
     github: "https://github.com/SamAditya09/Cartlane-Clone-Frontend",
     webapp: "https://samaditya09.github.io/Cartlane-Clone-Frontend/",
   },
   {
-    id: 8,
-    title: "Frontened Project",
-    date: "Dec 2023",
+    id: 5,
+    title: "Smart Subject-Teacher Assign System",
+    date: "Mar 2024 - May 2024",
     description:
-      "A fully responsive frontend website refers to a website that adapts seamlessly to various devices and screen sizes, ensuring an optimal user experience regardless of whether the user is on a desktop, tablet, or smartphone.      Creating a responsive website involves using techniques such as flexible grid layouts, media queries, and flexible images to ensure that the content and design elements adjust and reorganize themselves based on the screen size.",
-    image: "https://html.com/wp-content/uploads/html-tutorial-beginners-header.jpg",
-    tags: ["HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/SamAditya09/SIMPLOTEL-Frontened.git",
-    webapp: "https://samaditya09.github.io/SIMPLOTEL-Frontened/",
+      "The primary objective of this project is to develop an efficient and fair system for distributing workload among teachers in educational institutions. By leveraging smart algorithms and new learning techniques.",
+    image: "https://smartslateapp.com/ssapp/img/landscape/dashboard.png",
+    tags: ["React", "MongoDB", "BootStrap", "Postman", "Node.js"],
+    category: "React",
+    github: "https://github.com/merupeshpradhan/Teacher-subject-Assign-",
+    // webapp: "https://samaditya09.github.io/Cartlane-Clone-Frontend/",
   },
+  {
+    id: 6,
+    title: "Works Studio",
+    date: "June 2024",
+    description:
+      "This project involves creating a visually appealing and interactive web page with multiple sections, including a loader, a navigation bar, and several content pages. The primary focus is on ensuring smooth scrolling effects and seamless transitions between different sections. The design features custom fonts, dynamic content, and a footer section that needs to be properly visible and functional.",
+    image: "https://works.studio/assets/imager/images/converse-global-fa23/43403/converse-21_240523_143223_1a58980f77ae6d8c6a1e26c40e92a05d.jpg",
+    tags: [
+      "Locomotive",
+      "JavaScript",
+      "GSAP",
+      "Remix",
+      "Motion",
+      "Animatiion",
+      "Html",
+      "ScrollTrigger",
+    ],
+    category: "web app",
+    github: "https://github.com/SamAditya09/LocomotiveProject.git",
+    webapp: "https://samaditya09.github.io/LocomotiveProject/",
+  },  
 ];
 
 export const TimeLineData = [

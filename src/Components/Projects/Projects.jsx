@@ -6,6 +6,8 @@ import { projects } from '../../data/constants'
 
 const Projects = ({openModal,setOpenModal}) => {
     const [toggle, setToggle] = useState('all');
+
+    const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
   return (
     <>
     <Container id='projects'>
@@ -26,12 +28,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
           }
-          {/* <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          <Divider />
+          {toggle === 'React' ?
+            <ToggleButton active value="React" onClick={() => setToggle('React')}>FULLSTACK APP'S</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-          } */}
+            <ToggleButton value="React" onClick={() => setToggle('React')}>FULLSTACK APP'S</ToggleButton>
+          }
           {/* <Divider />
           {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
@@ -40,11 +42,10 @@ const Projects = ({openModal,setOpenModal}) => {
           } */}
         </ToggleButtonGroup>
         <CardContainer>
-          {toggle === 'all' && projects
-            .map((project) => (
+          {toggle === 'all' && sortedProjects.map((project) => (
               <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
-          {projects
+          {sortedProjects
             .filter((item) => item.category == toggle)
             .map((project) => (
               <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>

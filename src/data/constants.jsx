@@ -324,6 +324,25 @@ export const projects = [
     category: "web app",
     github: "https://github.com/SamAditya09/LocomotiveProject.git",
     webapp: "https://samaditya09.github.io/LocomotiveProject/",
+  },
+  {
+    id: 7,
+    title: "IPhone-ReImagine",
+    date: "July 2024",
+    description:
+      "I devloped a website resembling Apple's iPhone 15 Pro Page using React, Three.js and GSAP",
+    image: "https://9to5mac.com/wp-content/uploads/sites/6/2023/09/iPhone-15-pre-orders.jpg?quality=82&strip=all",
+    tags: [
+      "React",
+      "JavaScript",
+      "GSAP",
+      "Three.js",
+      "Animatiion",
+      "ScrollTrigger",
+    ],
+    category: "web app",
+    github: "https://github.com/SamAditya09/iPhone-Redesign.git",
+    webapp: "https://samaditya09.github.io/iPhone-Redesign/",
   },  
 ];
 
